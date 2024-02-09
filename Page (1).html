@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="javascript.js"></script>
+</head>
+<body>
+ 
+    <div class="container">
+          <form action="#">
+    <div class="title">Inscription</div> <br>
+    
+   <label for=""> Nom & prenom</label>
+   <label for="" class="left">Nom utilisateur</label> <br>
+   <div class="size">
+<input type="text" id="nom" placeholder="Entrer votre nom" required>
+   <input type="text" class="space" id="nom1" placeholder="Entrer votre nom d'utilisateur" required> <br> <br>
+   </div>
+   <label for=""> Email</label>
+   <label for="" class="left1">Numero de telephone</label> <br>
+   <div class="size">
+<input type="email" placeholder="Entrer votre email" id="email" required>
+   <input type="number" class="space" placeholder="Entrer votre N de telephone" id="num" required> <br> <br>
+   </div> 
+   <label for="">Mot de passe</label>
+   <label for="" class="left2">Confirmer le mot de passe</label> <br>
+   <div class="size">
+    <input type="password" placeholder="Entrer votre mot de passe" id="mdp" required>
+   <input type="password" class="space" placeholder="Confirmer votre mot de passe" id="mdp1" required> <br> <br>
+   </div>
+   
+   <label for=""id="genre">Sexe</label> <br>
+     <input type="radio" required>Homme
+     <input type="radio" class="space" required>Femme
+     <input type="radio" class="space" required>Je prefere ne pas le dire <br>  
+     <button type="submit" class="input-box" ondblclick="myFunction()" onclick="ajouterUtilisateur()">S'inscrire</button>
+      
+
+</form> <br> <br>
+<div class="container2">
+      <table border="1" id="tab">
+         <tr>
+           <th>Nom&Prenom</th>
+           <th>Nom d'utilisateur</th>
+           <th>Numero de telephone</th>
+           <th>Email</th>
+           <th>Modifier</th>
+           <th>Supprimer</th>
+         </tr>
+
+      </table>
+    </div>
+    
+
+    </div>
+ 
+</body>
+</html>

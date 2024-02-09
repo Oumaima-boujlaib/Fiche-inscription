@@ -1,0 +1,122 @@
+html,body{
+display: grid;
+height: 100%;
+width: 100%;
+background: linear-gradient(to right, rgb(139, 175, 242) 0%, rgb(131, 86, 222) 100%);
+
+
+}
+
+
+.left{
+    margin-left: 105px;
+}
+.left1{
+    margin-left: 170px;
+}
+.left2{
+    margin-left: 122px;
+}
+.space{
+    margin-left: 19px;
+}
+.input-box  {
+   width:100%;
+   height: 45px;
+   margin-top: 25px;
+   position: relative;
+}
+.container{
+    background: white;
+    padding: 25px 30px;
+    max-width: 700px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 15);
+    margin-left: 300px;
+    
+}
+ .size input{
+    height: 30px;
+    width: 180px;
+   
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    
+}
+.title::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 35px;
+    bottom: 1px;
+    border-radius: 5px;
+    background: linear-gradient(to right,  rgb(139, 175, 242) 0%, rgb(131, 86, 222) 100%);
+}
+button.input-box:hover{
+    background: linear-gradient(to right, rgb(139, 175, 242) 0%, rgb(131, 86, 222) 100%);
+    letter-spacing: 1px, 2px, 3px, 4px, 5px;
+}
+button{
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.container2{
+    background: white;
+    padding: 25px 0px;
+    max-width: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 15);
+    
+
+}
+table{
+    
+   margin-right: 20px;
+   margin-left: 20px;
+}
+tr:nth-child(even){
+    background-color: #CED4E5;
+}
+tr:nth-child(odd){
+    background-color: #E8EBF5;
+}
+th{
+    background-color: #71B7E6;
+}
+td{
+    padding: 0.5em;
+}
+#delete{
+    background-color: palegoldenrod;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    border: 1;
+    border-radius: 10px;
+
+}
+button#delete:hover{
+    background-color: darkkhaki;
+}
+.change{
+    background-color:rgb(8, 76, 8);
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    border: 1;
+    border-radius: 10px
+}
+button.change:hover{
+    background-color: green;
+}
